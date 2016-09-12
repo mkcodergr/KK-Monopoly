@@ -18,6 +18,27 @@ body {
 
 /* Portrait layout (default) */
 .app {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+#benjamin-bluemchen {
+  background: url(../img/krabs.png) no-repeat bottom right;
+  background-size: 85%;
+  width: 153px;
+  height: 261px;
+  position: absolute;
+  right: -20px;
+  bottom: -10px;
+}
+
+#card1, #card2 {
+  background: #ffffff;
+  width: 95%;
+  height: 30%;
+  display: block;
+  margin: 10% auto;
 }
 
 /* Landscape layout (with min-width) */
